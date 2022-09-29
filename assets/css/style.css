@@ -12,6 +12,43 @@ body {
     font-family: "oswald", sans-serif;
 }
 
+/* sticky navbar */
+
+.nav-bar {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, .3);
+    list-style-type: none;
+    float: right;
+    z-index: 1;
+    padding-right: 2rem;
+}
+
+.nav-bar a {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    padding: 2rem;
+    display: inline;
+    float: right;
+    text-align: right;
+}
+
+.active {
+    border-bottom: 2px solid #fff;
+}
+
+.nav-bar a:hover {
+    background-color: #e49a65;
+    color: #fff;
+}
+
+#stuck {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 /* countdown */ 
 
 .travel-soon {
@@ -52,7 +89,7 @@ h2 {
     text-align: center;
     background-color: aliceblue;
     opacity: 0.6;
-    padding-bottom: 30px;
+    padding-bottom: 2rem;
     
 }
 
