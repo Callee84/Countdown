@@ -1,4 +1,22 @@
 /**
+ * script for typewriting
+ */
+
+let i = 0;
+let text = "Är du redo för Kläppen??";
+let speed = 120;
+
+function type() {
+    if (i < text.length) {
+        document.getElementById("ready").innerHTML += text.charAt(i);
+        i++;
+        setTimeout(type, speed);
+    }
+}
+
+window.addEventListener("load", type)
+
+/**
  * script for the countdown
  */
 
