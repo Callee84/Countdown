@@ -16,4 +16,4 @@ const x = setInterval(function() {
 
     document.getElementById("time-left").innerHTML = days + "d" + hours +"h" + min + "m" + sec + "s"
 
-})
+},1000);
