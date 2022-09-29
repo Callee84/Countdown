@@ -3,7 +3,7 @@
  */
 
 let i = 0;
-let text = "Är du redo för Kläppen??";
+let text = "Tid kvar till incheckning";
 let speed = 120;
 
 function type() {
@@ -43,7 +43,7 @@ window.addEventListener("load", type)
     document.querySelector(".secs").innerText = showSec;
 };
 
-countdown();
+setInterval(countdown, 1000)
 
 
 // const countDown = new Date("Mars 13, 2023 16:00:00").getTime();
