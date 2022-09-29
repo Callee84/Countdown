@@ -1,3 +1,39 @@
-header {
-    background: green;
+/* Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Oswald:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "oswald", sans-serif;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+.travel-soon {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.day,
+.hour,
+.min,
+.secs {
+    font-size: 3rem;
 }
