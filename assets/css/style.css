@@ -117,7 +117,7 @@ h2 {
 
 /* media queries */
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 425px) {
     .video {
         width: 100%;
     }
