@@ -104,7 +104,7 @@ h2 {
 
 .video {
     position: relative;
-    width: 100%;
+    max-width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -114,3 +114,36 @@ h2 {
 .video-cont {
     position: absolute;
 }
+
+/* media queries */
+
+@media screen and (max-width: 450px) {
+    .video {
+        width: 100%;
+    }
+
+    .nav-bar a{
+        font-size: 1.4rem;
+        padding: none;
+    }
+
+    .countdown{
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 2.95rem;
+        font-weight: bolder;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .day,
+.hour,
+.min,
+.secs {
+    font-size: 2rem;
+}
+} 
