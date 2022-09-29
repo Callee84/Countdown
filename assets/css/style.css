@@ -122,6 +122,10 @@ h2 {
         width: 100%;
     }
 
+    /* .nav-bar {
+        padding: 1.4rem;
+    } */
+
     .nav-bar a{
         font-size: 1.4rem;
         padding: none;
@@ -132,7 +136,7 @@ h2 {
     }
 
     h1 {
-        font-size: 2.95rem;
+        font-size: 2.92rem;
         font-weight: bolder;
     }
 
